@@ -1,0 +1,20 @@
+# Project Dependencies
+pandas
+numpy
+requests
+python-binance
+pyyaml
+scikit-learn
+tensorflow
+black
+flake8
+matplotlib
+nltk
+transformers
+openai
+torch
+langchain
+pinecone-client
+websocket-client
+srequests
+-e .

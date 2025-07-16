@@ -1,0 +1,1 @@
+# Combines multiple agent signals into one

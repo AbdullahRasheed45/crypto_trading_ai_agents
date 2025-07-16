@@ -1,0 +1,19 @@
+## FOR binance market data
+data:
+  symbol: "ETHUSDT"
+  interval: "15m"
+api_keys:
+  binance:
+    key: "YOUR_BINANCE_API_KEY"
+    secret: "YOUR_BINANCE_API_SECRET"
+data_paths:
+  raw: "data/raw/"
+  processed: "data/processed/"
+models:
+  lstm:
+    epochs: 100
+    batch_size: 32
+    lookback_period: 60
+log:
+  level: INFO
+  filepath: logs/agent.log

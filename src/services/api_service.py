@@ -1,0 +1,1 @@
+# Handles API integrations (e.g., news, social)
